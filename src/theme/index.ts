@@ -8,6 +8,9 @@ export const size = {
 
 const theme = {
   BACKGROUND_COLOR: '#ffffff',
+  BLUE_COLOR: '#36f',
+  GRAY_COLOR: '#666',
+  GRAY_BOX: '#e1e2e3',
   mq: {
     laptop: `@media only screen and (min-width: ${size.largest})`,
     tablet: `@media only screen and (min-width: ${size.large})`,
