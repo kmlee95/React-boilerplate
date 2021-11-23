@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["dom", "es2017", "es2020.promise"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "baseUrl": "src",
+        "paths": {
+            "$components/*": ["components/*"],
+            "$styles/*": ["styles/*"],
+            "$assets/*": ["assets/*"]
+        },
+        "typeRoots": ["./node_modules/@types"],
+        "types": ["react", "@emotion/react/types/css-prop"],
+        "allowSyntheticDefaultImports": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "sourceMap": true,
+        "jsxImportSource": "@emotion/react",
+        "incremental": true
+    },
+    "compileOnSave": true,
+    "files": ["twin.d.ts"],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules", "dist", ".next", "next.config.js", "__tests__"]
+}
